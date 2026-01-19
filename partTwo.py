@@ -1,9 +1,14 @@
 import math  
 
 def main():
-#TO DO  
+    sideOne = int(input("What is Length A?:"))
+    sideTwo = int(input("What is Length B?:"))
+
+    print(pythag(sideOne, sideTwo))
 
 def pythag(A,B):
-#TO DO  
+    result = (A**2 + B**2)
+    finalResult = (result**0.5)
+    return(finalResult)
 
 main()
